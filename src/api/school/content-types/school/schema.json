@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scholen",
+  "info": {
+    "singularName": "school",
+    "pluralName": "scholen",
+    "displayName": "Scholen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naam": {
+      "type": "string"
+    },
+    "Adres": {
+      "type": "string"
+    },
+    "schoolbestuur": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::schoolbestuur.schoolbestuur",
+      "inversedBy": "scholen"
+    }
+  }
+}

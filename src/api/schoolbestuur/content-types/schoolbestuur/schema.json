@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schoolbesturen",
+  "info": {
+    "singularName": "schoolbestuur",
+    "pluralName": "schoolbesturen",
+    "displayName": "Schoolbestuur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Naam": {
+      "type": "string"
+    },
+    "scholen": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::school.school",
+      "mappedBy": "schoolbestuur"
+    }
+  }
+}
