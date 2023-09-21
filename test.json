@@ -1,0 +1,17 @@
+{
+  "bronorganisatie": "string",
+  "omschrijving": "string",
+  "toelichting": "string",
+  "zaaktype": "http://example.com",
+  "registratiedatum": "2019-08-24",
+  "tijdstipRegistratie": "2019-08-24 11:00",
+  "verantwoordelijkeOrganisatie": "string",
+  "startdatum": "2019-08-24",
+  "einddatumGepland": "2019-08-24",
+  "kenmerken": [
+    {
+      "kenmerk": "string",
+      "bron": "SIGNALEN"
+    }
+  ]
+}
